@@ -1,16 +1,17 @@
 package com.pe2.Junittest;
 
+import com.pe2.junittest.ToCheckPowerOf4;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class ToCheckPowerOf4_2Test {
-    ToCheckPowerOf4_2 ob;
+public class ToCheckPowerOf4Test {
+    ToCheckPowerOf4 ob;
     @Before
     public void setUp() throws Exception {
-        ob = new ToCheckPowerOf4_2();
+        ob = new ToCheckPowerOf4();
     }
 
     @After
@@ -31,7 +32,7 @@ public class ToCheckPowerOf4_2Test {
     public void TestpowerOf4_Failure() {
         boolean expectedValue = false;
         //Act
-        boolean actualValue = ob.powerOf4(15);
+        boolean actualValue = ob.powerOf4(33);
         //assert
         assertEquals(expectedValue,actualValue);
     }

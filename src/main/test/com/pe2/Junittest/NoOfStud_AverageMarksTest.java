@@ -1,5 +1,6 @@
 package com.pe2.Junittest;
 
+import com.pe2.junittest.Stud_AverageMarks;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -29,9 +30,9 @@ public class NoOfStud_AverageMarksTest {
 
         assertEquals(expectedValue_Max,actualValue_Max);
 
-        String expectedValueAvg="81.50";
+        String expectedValueAvg="81.5";
 
-        String  actualValueAvg=ob.StudentAvg(4,arr);
+        String actualValueAvg=ob.StudentAvg(4,arr);
 
         assertEquals(expectedValueAvg,actualValueAvg);
 
@@ -44,15 +45,15 @@ public class NoOfStud_AverageMarksTest {
 
         int expectedValueMin=-1;
         int  actualValueMin=ob.StudentMin(4,arr);
-        assertEquals(expectedValueMin,actualValueMin);
+        assertNotEquals(expectedValueMin,actualValueMin);
 
         int expectedValueMax=-1;
         int  actualValueMax=ob.StudentMax(4,arr);
-        assertEquals(expectedValueMax,actualValueMax);
+        assertNotEquals(expectedValueMax,actualValueMax);
 
         String expectedValueAvg="-1";
         String  actualValueAvg=ob.StudentAvg(4,arr);
-        assertEquals(expectedValueAvg,actualValueAvg);
+        assertNotEquals(expectedValueAvg,actualValueAvg);
 
     }
 

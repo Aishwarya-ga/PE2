@@ -1,5 +1,6 @@
 package com.pe2.Junittest;
 
+import com.pe2.junittest.Member_variables;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,7 +11,7 @@ public class MemberTest {
     Member_variables ob;
     @Before
     public void setUp() throws Exception {
-        ob = new Member();
+        ob = new Member_variables();
     }
 
     @After
@@ -48,13 +49,13 @@ public class MemberTest {
     @Test
     public void TestFailure(){
         String actualValue_1 = ob.memberName(null);
-        assertNull(ob);
+        assertNull(actualValue_1);
 
-        String actualValue_2 = ob.memberAge(null);
-        assertNull(ob);
+        int actualValue_2 = ob.memberAge(0);
+        assertEquals(0,actualValue_2);
 
-        String actualValue_3 = ob.memberSalary(null);
-        assertNull(ob);
+        long actualValue_3 = ob.memberSalary(0);
+        assertEquals(0,actualValue_3);
 
     }
 

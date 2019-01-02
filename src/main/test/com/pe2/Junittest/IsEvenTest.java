@@ -1,20 +1,21 @@
 package com.pe2.Junittest;
+import com.pe2.junittest.EvenNumTest;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 public class IsEvenTest {
-    EvenNumTest ob;
-    @Before
-    public void setUp() throws Exception {
-        ob = new IsEven();
-    }
-
-    @After
-    public void tearDown() throws Exception {
-        ob = null;
-    }
+//    EvenNumTest ob;
+//    @Before
+//    public void setUp() throws Exception {
+//        ob = new EvenNumTest();
+//    }
+//
+//    @After
+//    public void tearDown() throws Exception {
+//        ob = null;
+//    }
 
     @Test
     public void TestIsEvenSuccess(){

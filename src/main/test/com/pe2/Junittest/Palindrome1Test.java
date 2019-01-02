@@ -1,16 +1,17 @@
 package com.pe2.Junittest;
 
+import com.pe2.junittest.Palindrome1;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class Palindrome_1Test {
-    Palindrome_1 ob;
+public class Palindrome1Test {
+    Palindrome1 ob;
     @Before
     public void setUp() throws Exception {
-        ob = new Palindrome_1();
+        ob = new Palindrome1();
     }
 
     @After
