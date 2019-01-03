@@ -1,6 +1,6 @@
 package com.pe2.Junittest;
 
-import com.pe2.junittest.Member_variables;
+import com.pe2.junittest.MemberVariables;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -8,10 +8,10 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class MemberTest {
-    Member_variables ob;
+    MemberVariables ob;
     @Before
     public void setUp() throws Exception {
-        ob = new Member_variables();
+        ob = new MemberVariables();
     }
 
     @After

@@ -1,6 +1,6 @@
 package com.pe2.junittest;
 
-public class Palindrome1 {
+public class CheckPalindrome {
     public String checkPalindrome(String string){
         String reverse = "";
         int length;

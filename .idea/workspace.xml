@@ -250,7 +250,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoOfStud_AverageMarksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudAverageMarksTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE2" />
       <extension name="coverage">
         <pattern>
@@ -259,12 +259,12 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.pe2.Junittest" />
-      <option name="MAIN_CLASS_NAME" value="com.pe2.Junittest.NoOfStud_AverageMarksTest" />
+      <option name="MAIN_CLASS_NAME" value="com.pe2.Junittest.StudAverageMarksTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoOfStud_AverageMarksTest.StudentAvgTestFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudAverageMarksTest.StudentAvgTestFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE2" />
       <extension name="coverage">
         <pattern>
@@ -273,14 +273,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.pe2.Junittest" />
-      <option name="MAIN_CLASS_NAME" value="com.pe2.Junittest.NoOfStud_AverageMarksTest" />
+      <option name="MAIN_CLASS_NAME" value="com.pe2.Junittest.StudAverageMarksTest" />
       <option name="METHOD_NAME" value="StudentAvgTestFailure" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoOfStud_AverageMarksTest.StudentAvgTestSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudAverageMarksTest.StudentAvgTestSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE2" />
       <extension name="coverage">
         <pattern>
@@ -289,7 +289,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.pe2.Junittest" />
-      <option name="MAIN_CLASS_NAME" value="com.pe2.Junittest.NoOfStud_AverageMarksTest" />
+      <option name="MAIN_CLASS_NAME" value="com.pe2.Junittest.StudAverageMarksTest" />
       <option name="METHOD_NAME" value="StudentAvgTestSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -299,9 +299,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FactorialTest" />
-        <item itemvalue="JUnit.NoOfStud_AverageMarksTest.StudentAvgTestFailure" />
-        <item itemvalue="JUnit.NoOfStud_AverageMarksTest.StudentAvgTestSuccess" />
-        <item itemvalue="JUnit.NoOfStud_AverageMarksTest" />
+        <item itemvalue="JUnit.StudAverageMarksTest.StudentAvgTestFailure" />
+        <item itemvalue="JUnit.StudAverageMarksTest.StudentAvgTestSuccess" />
+        <item itemvalue="JUnit.StudAverageMarksTest" />
         <item itemvalue="JUnit.MemberTest" />
       </list>
     </recent_temporary>

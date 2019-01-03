@@ -1,8 +1,8 @@
 package com.pe2.junittest;
 
-public class Member_variables {
+public class MemberVariables {
     Member obj;
-    public Member_variables(){
+    public MemberVariables(){
         obj = new Member();
     }
     public String memberName(String name) {
