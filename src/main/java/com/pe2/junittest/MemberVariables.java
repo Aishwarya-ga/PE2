@@ -6,15 +6,15 @@ public class MemberVariables {
         obj = new Member();
     }
     public String memberName(String name) {
-        obj.Name = name;
-        return obj.Name;
+        obj.setName(name);
+        return obj.getName();
     }
     public int memberAge(int age) {
-        obj.Age = age;
-        return obj.Age;
+        obj.setAge(age);
+        return obj.getAge();
     }
     public long memberSalary(long salary) {
-        obj.Salary = salary;
-        return obj.Salary;
+        obj.setSalary(salary);
+        return obj.getSalary();
     }
 }
