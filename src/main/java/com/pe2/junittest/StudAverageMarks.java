@@ -1,6 +1,6 @@
 package com.pe2.junittest;
 
-public class Stud_AverageMarks {
+public class StudAverageMarks {
 
    public int StudentMin(int n,int array[]) {
        int minimum = array[0];

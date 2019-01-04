@@ -1,18 +1,18 @@
 package com.pe2.Junittest;
 
-import com.pe2.junittest.Stud_AverageMarks;
+import com.pe2.junittest.StudAverageMarks;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-public class NoOfStud_AverageMarksTest {
-    Stud_AverageMarks ob;
+public class NoOfStudAverageMarksTest {
+    StudAverageMarks ob;
 
     @Before
     public void setUp() {
         //System.out.println("Inside setup");
-       ob = new Stud_AverageMarks();
+       ob = new StudAverageMarks();
     }
     @Test
     public void StudentAvgTestSuccess()
