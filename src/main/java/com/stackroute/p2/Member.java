@@ -1,10 +1,14 @@
-package com.pe2.junittest;
+/**
+ * A member class contains the private variables and their getters and setters.
+ */
+package com.stackroute.p2;
 
 public class Member {
 
     private String Name;
     private int Age;
     private long Salary;
+
 
     public String getName() {
         return Name;
